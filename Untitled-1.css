@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.botons {
+    display: flex;
+    gap: 20px;
+}
+
+.botonss {
+    background: #a0b4d0;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.contenido {
+    background: white;
+    width: 95%;
+    margin: auto;
+    padding: 190px;
+    border: 1px solid black;
+}
+
+
+.franja-gris {
+    background: #616981;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.titulo {
+    color: black;
+    font-size: 32px;
+}
+.contenedor-central {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado-blanco1 {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cuadrado-blanco2 {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cuadrado-blanco3 {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rectangulo-azul {
+    background-color: blue;
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.boton:hover {
+    background-color: #e0e0e0;
+}
+
+.footer-container {
+    width: 150%;
+    height: 15vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #616981;
+}
+
+.footer-logo {
+    width: 45px;
+    height: auto;
+}
+
+.footer-content {
+    padding-left: 10px;
+    border-left: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-content p {
+    font-size: 0.9rem;
+    color: #FFF;
+}   
+

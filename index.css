@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecera {
+    background: #616981;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.titulo {
+    color: black;
+    font-size: 32px;
+}
+
+.botones {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background: #a0b4d0;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.contenido {
+    background: orange;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+}
+
+.tabla {
+    background: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.fila {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: -1px;
+}
+
+.celda {
+    padding: 10px;
+    font-size: 18px;
+    width: 25%;
+    border-right: 1px solid black;
+}
+
+.celda:last-child {
+    border-right: none;
+}
+
+.encabezado {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.footer-container {
+    width: 100%;
+    height: 25vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: #616981;
+}
+
+.footer-logo {
+    width: 45px;
+    height: auto;
+}
+
+.footer-content {
+    padding-left: 10px;
+    border-left: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer-content p {
+    font-size: 0.9rem;
+    color: #FFF;
+}   
